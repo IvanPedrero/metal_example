@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82A0EDF3232C22A400315522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0EDF2232C22A400315522 /* AppDelegate.swift */; };
+		82A0EDF7232C22A500315522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A0EDF6232C22A500315522 /* Assets.xcassets */; };
+		82A0EDFA232C22A500315522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A0EDF8232C22A500315522 /* Main.storyboard */; };
+		82A0EE06232C22A500315522 /* SimpleMetalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0EE05232C22A500315522 /* SimpleMetalTests.swift */; };
+		82A0EE11232C22A500315522 /* SimpleMetalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0EE10232C22A500315522 /* SimpleMetalUITests.swift */; };
+		82A0EE20232C237100315522 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0EE1F232C237100315522 /* MetalView.swift */; };
+		82A0EE22232C253E00315522 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 82A0EE21232C253E00315522 /* Shader.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82A0EE02232C22A500315522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EDE7232C22A400315522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A0EDEE232C22A400315522;
+			remoteInfo = SimpleMetal;
+		};
+		82A0EE0D232C22A500315522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A0EDE7232C22A400315522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A0EDEE232C22A400315522;
+			remoteInfo = SimpleMetal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82A0EDEF232C22A400315522 /* SimpleMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A0EDF2232C22A400315522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82A0EDF6232C22A500315522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82A0EDF9232C22A500315522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82A0EDFB232C22A500315522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A0EDFC232C22A500315522 /* SimpleMetal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleMetal.entitlements; sourceTree = "<group>"; };
+		82A0EE01232C22A500315522 /* SimpleMetalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMetalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A0EE05232C22A500315522 /* SimpleMetalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMetalTests.swift; sourceTree = "<group>"; };
+		82A0EE07232C22A500315522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A0EE0C232C22A500315522 /* SimpleMetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A0EE10232C22A500315522 /* SimpleMetalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMetalUITests.swift; sourceTree = "<group>"; };
+		82A0EE12232C22A500315522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A0EE1F232C237100315522 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		82A0EE21232C253E00315522 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A0EDEC232C22A400315522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EDFE232C22A500315522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EE09232C22A500315522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82A0EDE6232C22A400315522 = {
+			isa = PBXGroup;
+			children = (
+				82A0EDF1232C22A400315522 /* SimpleMetal */,
+				82A0EE04232C22A500315522 /* SimpleMetalTests */,
+				82A0EE0F232C22A500315522 /* SimpleMetalUITests */,
+				82A0EDF0232C22A400315522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82A0EDF0232C22A400315522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A0EDEF232C22A400315522 /* SimpleMetal.app */,
+				82A0EE01232C22A500315522 /* SimpleMetalTests.xctest */,
+				82A0EE0C232C22A500315522 /* SimpleMetalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A0EDF1232C22A400315522 /* SimpleMetal */ = {
+			isa = PBXGroup;
+			children = (
+				82A0EE1F232C237100315522 /* MetalView.swift */,
+				82A0EE21232C253E00315522 /* Shader.metal */,
+				82A0EDF8232C22A500315522 /* Main.storyboard */,
+				82A0EE1E232C22CD00315522 /* OtherFiles */,
+			);
+			path = SimpleMetal;
+			sourceTree = "<group>";
+		};
+		82A0EE04232C22A500315522 /* SimpleMetalTests */ = {
+			isa = PBXGroup;
+			children = (
+				82A0EE05232C22A500315522 /* SimpleMetalTests.swift */,
+				82A0EE07232C22A500315522 /* Info.plist */,
+			);
+			path = SimpleMetalTests;
+			sourceTree = "<group>";
+		};
+		82A0EE0F232C22A500315522 /* SimpleMetalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82A0EE10232C22A500315522 /* SimpleMetalUITests.swift */,
+				82A0EE12232C22A500315522 /* Info.plist */,
+			);
+			path = SimpleMetalUITests;
+			sourceTree = "<group>";
+		};
+		82A0EE1E232C22CD00315522 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				82A0EDF2232C22A400315522 /* AppDelegate.swift */,
+				82A0EDF6232C22A500315522 /* Assets.xcassets */,
+				82A0EDFB232C22A500315522 /* Info.plist */,
+				82A0EDFC232C22A500315522 /* SimpleMetal.entitlements */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A0EDEE232C22A400315522 /* SimpleMetal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A0EE15232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetal" */;
+			buildPhases = (
+				82A0EDEB232C22A400315522 /* Sources */,
+				82A0EDEC232C22A400315522 /* Frameworks */,
+				82A0EDED232C22A400315522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMetal;
+			productName = SimpleMetal;
+			productReference = 82A0EDEF232C22A400315522 /* SimpleMetal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82A0EE00232C22A500315522 /* SimpleMetalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A0EE18232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetalTests" */;
+			buildPhases = (
+				82A0EDFD232C22A500315522 /* Sources */,
+				82A0EDFE232C22A500315522 /* Frameworks */,
+				82A0EDFF232C22A500315522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A0EE03232C22A500315522 /* PBXTargetDependency */,
+			);
+			name = SimpleMetalTests;
+			productName = SimpleMetalTests;
+			productReference = 82A0EE01232C22A500315522 /* SimpleMetalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82A0EE0B232C22A500315522 /* SimpleMetalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A0EE1B232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetalUITests" */;
+			buildPhases = (
+				82A0EE08232C22A500315522 /* Sources */,
+				82A0EE09232C22A500315522 /* Frameworks */,
+				82A0EE0A232C22A500315522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A0EE0E232C22A500315522 /* PBXTargetDependency */,
+			);
+			name = SimpleMetalUITests;
+			productName = SimpleMetalUITests;
+			productReference = 82A0EE0C232C22A500315522 /* SimpleMetalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A0EDE7232C22A400315522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ivan Pedrero";
+				TargetAttributes = {
+					82A0EDEE232C22A400315522 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					82A0EE00232C22A500315522 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 82A0EDEE232C22A400315522;
+					};
+					82A0EE0B232C22A500315522 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 82A0EDEE232C22A400315522;
+					};
+				};
+			};
+			buildConfigurationList = 82A0EDEA232C22A400315522 /* Build configuration list for PBXProject "SimpleMetal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82A0EDE6232C22A400315522;
+			productRefGroup = 82A0EDF0232C22A400315522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A0EDEE232C22A400315522 /* SimpleMetal */,
+				82A0EE00232C22A500315522 /* SimpleMetalTests */,
+				82A0EE0B232C22A500315522 /* SimpleMetalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A0EDED232C22A400315522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0EDF7232C22A500315522 /* Assets.xcassets in Resources */,
+				82A0EDFA232C22A500315522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EDFF232C22A500315522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EE0A232C22A500315522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A0EDEB232C22A400315522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0EE22232C253E00315522 /* Shader.metal in Sources */,
+				82A0EE20232C237100315522 /* MetalView.swift in Sources */,
+				82A0EDF3232C22A400315522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EDFD232C22A500315522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0EE06232C22A500315522 /* SimpleMetalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0EE08232C22A500315522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0EE11232C22A500315522 /* SimpleMetalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A0EE03232C22A500315522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82A0EDEE232C22A400315522 /* SimpleMetal */;
+			targetProxy = 82A0EE02232C22A500315522 /* PBXContainerItemProxy */;
+		};
+		82A0EE0E232C22A500315522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82A0EDEE232C22A400315522 /* SimpleMetal */;
+			targetProxy = 82A0EE0D232C22A500315522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82A0EDF8232C22A500315522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A0EDF9232C22A500315522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A0EE13232C22A500315522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82A0EE14232C22A500315522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		82A0EE16232C22A500315522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMetal/OtherFiles/SimpleMetal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleMetal/OtherFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82A0EE17232C22A500315522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMetal/OtherFiles/SimpleMetal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleMetal/OtherFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		82A0EE19232C22A500315522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = SimpleMetalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMetal.app/Contents/MacOS/SimpleMetal";
+			};
+			name = Debug;
+		};
+		82A0EE1A232C22A500315522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = SimpleMetalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMetal.app/Contents/MacOS/SimpleMetal";
+			};
+			name = Release;
+		};
+		82A0EE1C232C22A500315522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = SimpleMetalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimpleMetal;
+			};
+			name = Debug;
+		};
+		82A0EE1D232C22A500315522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4BZAVK285L;
+				INFOPLIST_FILE = SimpleMetalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IvanPedrero.SimpleMetalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimpleMetal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A0EDEA232C22A400315522 /* Build configuration list for PBXProject "SimpleMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A0EE13232C22A500315522 /* Debug */,
+				82A0EE14232C22A500315522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A0EE15232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A0EE16232C22A500315522 /* Debug */,
+				82A0EE17232C22A500315522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A0EE18232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A0EE19232C22A500315522 /* Debug */,
+				82A0EE1A232C22A500315522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A0EE1B232C22A500315522 /* Build configuration list for PBXNativeTarget "SimpleMetalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A0EE1C232C22A500315522 /* Debug */,
+				82A0EE1D232C22A500315522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A0EDE7232C22A400315522 /* Project object */;
+}
