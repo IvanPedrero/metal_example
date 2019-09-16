@@ -66,7 +66,7 @@ ___
 por 
 
 ```Swift
-    import MetalKi
+    import MetalKit
 ```
 
 
@@ -106,7 +106,7 @@ required init(coder: NSCoder) {
 ```
 14. El parametro que se debe mandar es el nombre de las funciones, etas sera definidas en otro archivo. pero primero se crea el **descriptor del Render Pipeline**
 
-![i1](img_git/gitimg1)
+![alt text](https://github.com/IvanPedrero/metal_example/blob/master/git_img/gitimg1.jpeg)
 
 ```Swift
     func createRenderPipelineState(){
@@ -175,7 +175,7 @@ required init(coder: NSCoder) {
 ```
 17. Definimos nuestros vertices y se argega la funcion para el *Buffer*
 
-![i2](img_git/gitimg2)
+![alt text](https://github.com/IvanPedrero/metal_example/blob/master/git_img/gitimg2.jpeg)
 
 ```Swift
     var commandQueue: MTLCommandQueue !
