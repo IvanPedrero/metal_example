@@ -14,12 +14,12 @@ Un **Render Pipeline**  procesa comandos de dibujo y escribe datos con el objeti
 
 Las 3 principales fases del **Render Pipeline** son las funciones de *vértices, rasterización* y las funciones de *fragmentos*. 
 
-![i1](img_git/gitimg1)
+![i1](git_img/gitimg1)
 ___
 
 Vamos a escribir las funciones vértices y fragmentos para renderizar un triángulo simple en la pantalla. 
  
-![i2](img_git/gitimg2)
+![i2](git_img/gitimg2)
 
 El triangulo inherentemente cuenta con 3 vértices, los cuales tendrán coordenadas fijas para este READM
 ___
@@ -29,19 +29,19 @@ Nuestra función de vertices (`Vertex`) tiene que mandar las coordenas de los re
 
 Una Función de Fragmento (`Fragment`) procesa la  iformación del rasterizador y calcula los valores de salida para cada uno de los objetivos del rasterizador. 
 
-![i3](img_git/gitimg3)
+![i3](git_img/gitimg3)
 
 Solo se renderizan los fragmentos cuyos centros de pixel estan dentro del triángulo. 
 
 Toda esta información de vértices se pasa a través de buffers. En especifico de un *MTLBuffer*
 
-![i4](img_git/gitimg4)
+![i4](git_img/gitimg4)
 
 Se usan los *MTLBuffer* para datos al *Sahder* de los vèrtices. Para este proceso es recomendable utilizar la __GPU__ 
 
 Para las operaciones de Commit y Dibujo necesitamos un *Command Queue*.
  
- ![i5](img_git/gitimg5)
+ ![i5](git_img/gitimg5)
 
 Esto para hacer un *Queue* con el *Buffer* de vértices para poder  desplegarlos en la pantalla. 
 ___
