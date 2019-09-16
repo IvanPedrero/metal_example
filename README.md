@@ -1,4 +1,4 @@
-# README 
+# Tutorial de Metal
 ## Render Pipeline & renderizar objetos primitivos con *Swift* usando el framework **Metal**
 
 # Indice 
